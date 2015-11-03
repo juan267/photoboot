@@ -1,0 +1,34 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  background-image: image-url("fashion-person-woman-apple.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 30%;
+  height: 400px;
+
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1010px !important;
+    }
+}
+
+.media .media-info {
+    width: 45%;
+    text-align: left;
+}
+
+section {
+  margin-top:30px;
+  margin-bottom:30px;
+}
