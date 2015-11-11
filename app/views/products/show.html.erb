@@ -1,0 +1,13 @@
+<ul>
+<% @product.sizes.each do |size| %>
+  <li><%= size %></li>
+<% end %>
+</ul>
+
+
+
+<ul>
+<% @product.prices.each do |quantity, price| %>
+  <li><%= quantity %>:<%= price %></li>
+<% end %>
+</ul>

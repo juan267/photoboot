@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'products/show'
+
   get 'carts/show'
 
   root 'pages#home'
